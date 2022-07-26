@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+      <ImageView
+          android:id="@+id/iv_setting"
+          android:layout_width="30dp"
+          android:layout_height="30dp"
+          android:layout_marginTop="16dp"
+          android:layout_marginEnd="32dp"
+          android:contentDescription="@string/change_language"
+          android:src="@drawable/ic_setting"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="1.0"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent" />
+
+      <com.google.android.material.imageview.ShapeableImageView
+          android:id="@+id/imageView"
+          android:layout_width="0dp"
+          android:layout_height="80dp"
+          android:layout_marginStart="32dp"
+          android:layout_marginTop="28dp"
+          android:layout_marginEnd="32dp"
+          android:contentDescription="@string/picture_logo"
+          android:src="@drawable/image_dicoding"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="1.0"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/iv_setting"
+          tools:ignore="MissingConstraints" />
+
+      <TextView
+          android:id="@+id/nameTextView"
+          style="@style/TextBold"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="50dp"
+          android:layout_marginTop="16dp"
+          android:layout_marginRight="50dp"
+          android:text="@string/message_main_page"
+          android:textSize="22sp"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/imageView"
+          tools:ignore="MissingConstraints" />
+
+      <TextView
+          android:id="@+id/messageText"
+          style="@style/TextRegular"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:layout_marginTop="12dp"
+          android:layout_marginEnd="20dp"
+          android:text="@string/message_main_page"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/nameTextView" />
+
+      <Button
+          android:id="@+id/btnListStory"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="32dp"
+          android:layout_marginTop="16dp"
+          android:layout_marginEnd="32dp"
+          android:backgroundTint="@color/navi"
+          android:text="@string/continue_"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/messageText"
+          app:layout_constraintVertical_bias="0.027"
+          tools:ignore="MissingConstraints" />
+
+      <Button
+          android:id="@+id/logoutButton"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="16dp"
+          android:layout_marginStart="32dp"
+          android:layout_marginEnd="32dp"
+          android:backgroundTint="@color/navi"
+          android:text="@string/logout"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/btnListStory"
+          tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

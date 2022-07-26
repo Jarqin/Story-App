@@ -1,0 +1,57 @@
+<resources>
+  <string name="app_name" translatable="false">StoryApp</string>
+  <string name="picture_logo" translatable="false">This StoryApp logo</string>
+  <string name="invalid_password" translatable="false">Password minimum 6 characters</string>
+  <string name="list_story" translatable="false">Story Dicoding</string>
+  <string name="logout" translatable="false">Log Out</string>
+  <string name="login" translatable="false">Log In</string>
+  <string name="did_t_have_account" translatable="false"><u>Don\'t have an account yet? Register</u></string>
+  <string name="have_account" translatable="false"><u>Already have an account? Log In</u></string>
+  <string name="greeting" translatable="false">Hi %1$s,</string>
+  <string name="created_add" translatable="false">Created at %1$s,</string>
+  <string name="continue_" translatable="false">NEXT</string>
+  <string name="sign_in_success" translatable="false">Sign In Success</string>
+  <string name="register_success" translatable="false">YEY,,Register Success</string>
+  <string name="register_failed" translatable="false">Register Failed</string>
+  <string name="upload_failed" translatable="false">Upload Failed</string>
+  <string name="upload_success" translatable="false">Upload Success Swipe Up to Refresh</string>
+  <string name="sign_in_failed" translatable="false">Sign In Failed</string>
+  <string name="log_out_success" translatable="false">Log Out Success</string>
+  <string name="information" translatable="false">Information</string>
+  <string name="detail_story" translatable="false">Detail Story</string>
+  <string name="switch_camera" translatable="false">Switch Camera</string>
+  <string name="capture_image" translatable="false">Capture image</string>
+  <string name="image_story" translatable="false">Image story</string>
+  <string name="name" translatable="false">Name</string>
+  <string name="error_occurred" translatable="false">Some Error Occurred</string>
+  <string name="post_story" translatable="false">Post story</string>
+  <string name="enable_gps_permission" translatable="false">Please allowed your location services</string>
+  <string name="invalid_permission" translatable="false">Can\'t get permission</string>
+  <string name="no_attach_file" translatable="false">Please attach image first !</string>
+  <string name="invalid_description" translatable="false">please fill description first !</string>
+  <string name="description" translatable="false">Description</string>
+  <string name="invalid_capture" translatable="false">Failed to take pictures</string>
+  <string name="failed_open_camera" translatable="false">Failed to open camera</string>
+  <string name="change_language" translatable="false">Select Language</string>
+  <string name="new_story" translatable="false">Upload Story</string>
+  <string name="image_preview" translatable="false">Image preview</string>
+  <string name="retry" translatable="false">Retry</string>
+  <string name="title_activity_maps" translatable="false">MapsActivity</string>
+  <string name="something_wrong" translatable="false">There is something wrong<br /> Check your connection</string>
+  <string name="share_location" translatable="false">Share Location</string>
+  <string name="signup" translatable="false">Daftar</string>
+  <string name="message_welcome_page" translatable="false">Mau belajar Android, iOS, Machine Learning, Cloud, Front-End, Back-End, dan bidang IT lainnya? Di Dicoding aja!</string>
+  <string name="title_welcome_page" translatable="false">Selamat datang di Dicoding!</string>
+  <string name="title_signup_page" translatable="false">Lengkapi data dirimu di bawah ini ya</string>
+  <string name="email" translatable="false">Email</string>
+  <string name="password" translatable="false">Password</string>
+  <string name="message_login_page" translatable="false">Masukkan dulu datamu ya</string>
+  <string name="title_login_page" translatable="false">Sudah siap untuk upgrade skill?</string>
+  <string name="copyright" translatable="false">© 2021 Dicoding</string>
+  <string name="message_main_page" translatable="false">Selamat Belajar di Dicoding.</string>
+  <string name="upload" translatable="false">UPLOAD</string>
+  <string name="camera" translatable="false">Kamera</string>
+  <string name="gallery" translatable="false">Galeri</string>
+  <string name="todo" translatable="false">TODO</string>
+    <string name="_404_not_found">404 Not Found</string>
+</resources>
